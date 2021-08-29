@@ -13,4 +13,19 @@ Tropical peatlands are swamp‐like environments in which naturally wet conditio
 
 ![Canal segmentation results](/images/canals.png){:height="50%" width="50%"}
 
+
 _Canal segmentation results_
+
+
+
+* * * ## Research graciously funded by
+
+<div class="row">
+
+<div class="column">[![Edinburgh logo](https://ahmadbelb.github.io/Blog/images/ed.png)](https://www.eng.ed.ac.uk/)</div>
+
+<div class="column">[![Arup logo](https://ahmadbelb.github.io/Blog/images/Arup.png)](https://www.Arup.com/)</div>
+
+<div class="column">[![scot logo](https://ahmadbelb.github.io/Blog/images/scot.png)](https://www.transport.gov.scot/)</div>
+
+</div>
