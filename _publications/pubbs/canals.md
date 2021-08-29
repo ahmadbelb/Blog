@@ -15,7 +15,32 @@ q
 
 
 _Canal segmentation results_
+# HAVVX Orb Numbers
+{% capture code %}{% raw %}rule("Order Text For HAVVX -------------------------- Force Orb Order Mod")
+{
+    event
+    {
+        Ongoing - Each Player;
+        All;
+        All;
+    }
 
+    actions
+    {
+            Create In-World Text(Event Player, !Event Player.TCDFdisplay[3] == True ? Custom String("1") : Custom String(""), 
+                Global.TCDpos[Event Player.Checkpoint] + Vector(0,.5,0),
+                1.5, Clip Against Surfaces, Visible To Position and String, Color(Red), Default Visibility);
+            
+            Create In-World Text(Event Player, !Event Player.TCDFdisplay[4] == True ? (Global.TCD3pos[Event Player.Checkpoint] ? Custom String("3") : Custom String("2")) : Custom String(""),
+                Global.TCD2pos[Event Player.Checkpoint] + Vector(0,.5,0), 
+                1.5, Clip Against Surfaces, Visible To Position and String, Color(Red), Default Visibility);
+                
+            Create In-World Text(Event Player, !Event Player.TCDFdisplay[5] == True ? (Global.TCD2pos[Event Player.Checkpoint] ? Custom String("2") : Custom String("3")) : Custom String(""),
+                Global.TCD3pos[Event Player.Checkpoint] + Vector(0,.5,0), 
+                1.5, Clip Against Surfaces, Visible To Position and String, Color(Red), Default Visibility);
+    }
+}{% endraw %}{% endcapture %}  
+{% include code.html code=code %}
 
 
 <style>
