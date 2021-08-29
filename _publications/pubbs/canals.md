@@ -19,7 +19,11 @@ _Canal segmentation results_
 
 
 
-
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 
 <hr>
 <body class="sponsored">
