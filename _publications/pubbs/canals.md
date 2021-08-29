@@ -15,20 +15,11 @@ q
 
 
 _Canal segmentation results_
-```javascript
-/* Global scope: this code is executed once */
-const redis = require('redis');
 
-const host = <HOSTNAME>;
-const port = <PORT>;
-const password = <PASSWORD>;
 
-...
-```
-{: #code-example-1}
----
-front matter things here
----
+
+
+
 {%- capture code -%}
 /* Some js code */
 const redis = require('redis');
@@ -37,13 +28,8 @@ const host = <HOSTNAME>;
 
 {% include code_snippet.md code=code language='javascript' %}
 
-{%- capture code -%}
-# Some ruby code
-t = Time.now
-t.succ  
-{%- endcapture -%}
 
-{% include code_snippet.md code=code language='ruby' %}
+
 
 <style>
 table, tr, td ,th{
