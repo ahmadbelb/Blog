@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Krishna Rao"
+title                    : "Ahmad M. Belbeisi"
 title_separator          : "-"
-name                     : &name "Krishna Rao"
-description              : &description "PhD candidate at Stanford University"
-url                      : https://krishnakrao.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Ahmad M. Belbeisi"
+description              : &description "Computational Science and Engineering student at Technical University of Munich"
+url                      : https://ahmadbelb.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "krishnakrao.github.io"
+repository               : "belbeisiahmad.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,14 +80,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Krishna Rao"
+  name             : "Ahmad M. Belbeisi"
   avatar           : "profile_blur.jpg"
-  bio              : "Develop machine learning algorithms for forest health monitoring. <br />PhD candidate at Stanford University."
-  location         : "Stanford, California"
+  bio              : "Develop Multi-Physics and Coupled Simulations algorithms. <br />Computational Science and Engineering student at Technical University of Munich"
+  location         : "Munich, Germany"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=-UCmLrUAAAAJ&hl=en"
-  email            : "kkrao dot j at g mail dot com"
+  email            : "ahmadbelb  at g mail dot com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "kkraoj"
+  github           : "ahmadbelbeisi"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "kkraoj"
+  linkedin         : "ahmadbelbeisi"
   orcid            : 
   pinterest        :
   soundcloud       :
@@ -115,7 +115,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  medium           : "https://medium.com/@kkrao"
+  medium           : "https://medium.com/@ahmadbelb"
 
 # Reading Files
 include:
