@@ -15,12 +15,12 @@ q
 
 
 _Canal segmentation results_
-
-{% include codeHeader.html %}
-```someLanguage
-code goes in here!yt
 ```
-
+conditions
+{
+    Is Dummy Bot(Event Player) == False;
+}
+```
 <style>
 table, tr, td ,th{
    border: none!important;
