@@ -17,12 +17,11 @@ q
 _Canal segmentation results_
 
 
+{% include codeHeader.html %}
+```someLanguage
+code goes in here!
 ```
-conda create -n slideshow -c conda-forge python=3.9 rise
-conda activate slideshow
-jupyter notebook
-```
-
+<script src="/assets/js/copyCode.js"></script>
 
 <style>
 table, tr, td ,th{
