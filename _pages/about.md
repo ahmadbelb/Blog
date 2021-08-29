@@ -25,7 +25,7 @@ My skills include-
 
 I am open to work remotely from Stanford, CA. Interested or know anyone who might be interested in hiring me? [Please email me.](mailto:kkrao@stanford.edu) -->
 
-I am a PhD candidate in Earth System Science at Stanford University. 
+I am a master student  in Computational Science and Engineering at Technical University of Munich.
 
 I develop physics-assisted machine learning algorithms to measure forest health (how wet or dry the forests are) using remote sensing. I work in the <a href="https://koningslab.stanford.edu/" target="_blank">Remote Sensing Ecohydrology Group</a> with Prof. Alexandra Konings. I got my bachleors in Civil Engineering at the Indian Institute of Technology Madras and my masters in Environmental Fluid Mechanics and Hydrology at Stanford University. During my bachelors and masters, I worked on several  independent studies which convinced me about the endless possibilities of impact-based research. My quest to develop technologies to measure forest health and help quantify climate change impacts on ecosystems is derived from that conviction. 
 
@@ -52,4 +52,4 @@ For about 2 years between my bachelors and masters, I was a Wireline Field Engin
 
 My hobbies include bicycle touring, and triathlons. I am passionate about them and devote my entire free time to them. You can read more about my hobbies on the [blog section](https://ahmadbelb.github.io/belbeisiahmad.github.io/blog/). 
 
-<!--{% include image.html url="/images/coverpicture.jpeg"%}-->
+{% include image.html url="https://ahmadbelb.github.io/belbeisiahmad.github.io/images/coverpicture.jpeg"%}
