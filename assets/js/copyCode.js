@@ -1,22 +1,15 @@
-const copyCode = (clickEvent) => {
-  const copyCodeButton = clickEvent.target;
-  const tempTextArea = document.createElement('textarea');
-  tempTextArea.textContent = copyCodeButton.getAttribute('data-code');
-  document.body.appendChild(tempTextArea);
+const codeBlocks = document.querySelectorAll('.code-header + .highlighter-rouge');
+const copyCodeButtons = document.querySelectorAll('.copy-code-button');
 
-  const selection = document.getSelection();
-  selection.removeAllRanges();
-  tempTextArea.select();
-  document.execCommand('copy');
-  selection.removeAllRanges();
-  document.body.removeChild(tempTextArea);
+copyCodeButtons.forEach((copyCodeButton, index) => {
+  const code = codeBlocks[index].innerText;
 
-  copyCodeButton.classList.add('copied');
-  setTimeout(() => {
-    copyCodeButton.classList.remove('copied');
-}, 2000);
-};
+  copyCodeButton.addEventListener('click', () => {
+    window.navigator.clipboard.writeText(code);
+    copyCodeButton.classList.add('copied');
 
-document.querySelectorAll('.copy-code-button').forEach((copyCodeButton) => {
-  copyCodeButton.addEventListener('click', copyCode);
+    setTimeout(() => {
+      copyCodeButton.classList.remove('copied');
+    }, 2000);
+  });
 });
