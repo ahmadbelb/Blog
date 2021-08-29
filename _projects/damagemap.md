@@ -2,7 +2,7 @@
 title: "DamageMap: A Post-Wildfire Damaged Building Detector"
 excerpt: "DamageMap is a system composed of rapid buildings damage assessment and a convenient user interface for result visualization. <br/><img src='https://ahmadbelb.github.io/Blog/images/damagemap.gif'>"
 date: 2020-5-1
-collection: projects
+collection: poster
 ---
 
 ![DamageNet Logo](https://github.com/kkraoj/damaged_structures_detector/blob/master/firgures/dmlogo.JPG?raw=true = 50x50, "DamageNet Logo")   
