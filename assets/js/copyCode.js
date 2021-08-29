@@ -1,22 +1,16 @@
-const copyCode = (clickEvent) => {
-  const copyCodeButton = clickEvent.target;
-  const tempTextArea = document.createElement('textarea');
-  tempTextArea.textContent = copyCodeButton.getAttribute('data-code');
-  document.body.appendChild(tempTextArea);
+// get all <code> elements
+var allCodeBlocksElements = $( "code" );
 
-  const selection = document.getSelection();
-  selection.removeAllRanges();
-  tempTextArea.select();
-  document.execCommand('copy');
-  selection.removeAllRanges();
-  document.body.removeChild(tempTextArea);
+allCodeBlocksElements.each(function(i) {
+  // add different id for each code block
 
-  copyCodeButton.classList.add('copied');
-  setTimeout(() => {
-    copyCodeButton.classList.remove('copied');
-}, 2000);
-};
-
-document.querySelectorAll('.copy-code-button').forEach((copyCodeButton) => {
-  copyCodeButton.addEventListener('click', copyCode);
-});
+  // target 
+  var currentId = "codeblock" + (i + 1);
+  $(this).attr('id', currentId);
+     
+  //trigger
+  var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
+     $(this).after(clipButton);
+  });
+ 
+  new Clipboard('.btn');
