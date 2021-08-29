@@ -20,7 +20,7 @@ _Canal segmentation results_
 
 
 <style>
-td, th,tr {
+table, tr, td ,th{
    border: none!important;
 }
 </style>
