@@ -6,7 +6,7 @@ collection: poster
 ---
 
 ![DamageNet Logo](https://github.com/kkraoj/damaged_structures_detector/blob/master/firgures/dmlogo.JPG?raw=true = 50x50, "DamageNet Logo")   
-  
+<!--  
 **DamageMap is a system composed of rapid buildings damage assessment and a convenient user interface for result visualization.** It uses AI to identify damaged buildings after wildfires using aerial surveys uploaded by users. 
 
 DamageMap automates the laborious structure damage inspection process, which is currently performed manually. With a variety of features, including real-time damage assessment and damage report generation, DamageMap can help fasten the post-wildfire recovery and assist those affected by wildfires, including first responders and policy makers.
@@ -91,3 +91,4 @@ We thank Dr. Andrew Fricker (California Polytechnic State University) for provid
 
 
 
+-->
