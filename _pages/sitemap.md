@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Sitemap"
-permalink: /sitemap/
+permalink: https://ahmadbelb.github.io/belbeisiahmad.github.io/sitemap/
 author_profile: true
 ---
 

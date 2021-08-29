@@ -6,7 +6,7 @@ author_profile: true
 collection: projects
 entries_layout: grid
 classes: wide
-image: "/images/coverpicture.jpeg"
+image: "https://ahmadbelb.github.io/belbeisiahmad.github.io/images/coverpicture.jpeg"
 ---
 
 {% for post in site.projects reversed %}
