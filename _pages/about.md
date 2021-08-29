@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
 ---
-
+<link rel="shortcut icon" href="https://ahmadbelb.github.io/Blog/images/favicon/apple-touch-icon.png" />
 <picture>
     <source media="(min-width: 1000px)" srcset="https://ahmadbelb.github.io/Blog/images/myplan.png">
     <img src="https://ahmadbelb.github.io/Blog/images/myplan.png" alt="Time line of my previous experience">
