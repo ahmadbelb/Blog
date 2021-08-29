@@ -10,7 +10,7 @@ image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
 ---
 
 <picture>
-    <source media="(min-width: 800px)" srcset="https://ahmadbelb.github.io/Blog/images/timespent_wide.jpg">
+    <source media="(min-width: 1000px)" srcset="https://ahmadbelb.github.io/Blog/images/timespent_wide.jpg">
     <img src="https://ahmadbelb.github.io/Blog/images/timespent.jpg" alt="Time line of my previous experience">
 </picture>
 _My path since 2010._
