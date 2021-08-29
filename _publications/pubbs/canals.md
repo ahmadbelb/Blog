@@ -1,3 +1,4 @@
+<script src="/assets/js/copyCode.js"></script>
 ---
 title: "Derainage canals in Southeast Asian peatlands increase carbon emissions"
 collection: publications
@@ -21,7 +22,6 @@ _Canal segmentation results_
 ```someLanguage
 code goes in here!
 ```
-
 <style>
 table, tr, td ,th{
    border: none!important;
