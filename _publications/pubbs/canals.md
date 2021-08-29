@@ -1,4 +1,4 @@
-<script src="/assets/js/copyCode.js"></script>
+
 ---
 title: "Derainage canals in Southeast Asian peatlands increase carbon emissions"
 collection: publications
