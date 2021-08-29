@@ -58,13 +58,26 @@ table, tr, td ,th{
 </body>
 
 <script>
-var copybutton = document.getElementById('copybutton{{ nanosecond }}');
-var clipboard{{ nanosecond }} = new Clipboard(copybutton);
+const copyCode = (clickEvent) => {
+  const copyCodeButton = clickEvent.target;
+  const tempTextArea = document.createElement('textarea');
+  tempTextArea.textContent = copyCodeButton.getAttribute('data-code');
+  document.body.appendChild(tempTextArea);
 
-clipboard{{ nanosecond }}.on('success', function(e) {
-    console.log(e);
-});
-clipboard{{ nanosecond }}.on('error', function(e) {
-    console.log(e);
+  const selection = document.getSelection();
+  selection.removeAllRanges();
+  tempTextArea.select();
+  document.execCommand('copy');
+  selection.removeAllRanges();
+  document.body.removeChild(tempTextArea);
+
+  copyCodeButton.classList.add('copied');
+  setTimeout(() => {
+    copyCodeButton.classList.remove('copied');
+}, 2000);
+};
+
+document.querySelectorAll('.copy-code-button').forEach((copyCodeButton) => {
+  copyCodeButton.addEventListener('click', copyCode);
 });
 </script>
