@@ -15,13 +15,12 @@ q
 
 
 _Canal segmentation results_
-# HAVVX Orb Numbers
-{% capture code %}{% raw %}
-Belbeisi
-{% endraw %}{% endcapture %}  
+
+{% capture code %}{% raw %}conditions
+{
+    Is Dummy Bot(Event Player) == False;
+}{% endraw %}{% endcapture %}  
 {% include code.html code=code %}
-
-
 <style>
 table, tr, td ,th{
    border: none!important;
