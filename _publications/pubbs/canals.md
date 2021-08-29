@@ -18,14 +18,13 @@ _Canal segmentation results_
 
 
 
-* * * ## Research graciously funded by
+* * *
 
-<div class="row">
+Research graciously funded by
+-----------------------------
 
-<div class="column">[![Edinburgh logo](https://ahmadbelb.github.io/Blog/images/ed.png)](https://www.eng.ed.ac.uk/)</div>
+[![Edinburgh logo](https://ahmadbelb.github.io/Blog/images/ed.png)](https://www.eng.ed.ac.uk/)
 
-<div class="column">[![Arup logo](https://ahmadbelb.github.io/Blog/images/Arup.png)](https://www.Arup.com/)</div>
+[![Arup logo](https://ahmadbelb.github.io/Blog/images/Arup.png)](https://www.Arup.com/)
 
-<div class="column">[![scot logo](https://ahmadbelb.github.io/Blog/images/scot.png)](https://www.transport.gov.scot/)</div>
-
-</div>
+[![scot logo](https://ahmadbelb.github.io/Blog/images/scot.png)](https://www.transport.gov.scot/)
