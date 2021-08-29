@@ -17,73 +17,7 @@ q
 _Canal segmentation results_
 
 
-```python
-pip install numpy
-```
 
-    Collecting numpy
-      Downloading numpy-1.21.2-cp39-cp39-macosx_10_9_x86_64.whl (17.0 MB)
-    [K     |████████████████████████████████| 17.0 MB 4.8 MB/s eta 0:00:01
-    [?25hInstalling collected packages: numpy
-    Successfully installed numpy-1.21.2
-    Note: you may need to restart the kernel to use updated packages.
-
-
-
-```python
-import numpy as np
-x = np.array([[100],
-              [100]])
-A = np.array([[1.05, 0],
-              [0,    1.03]])
-A.dot(x)
-```
-
-
-
-
-    array([[105.],
-           [103.]])
-
-
-
-
-```python
-A.dot(A.dot(x))
-```
-
-
-
-
-    array([[110.25],
-           [106.09]])
-
-
-
-
-```python
-from numpy import linalg as lg
-l = lg.eigvals(A)
-print(l)
-```
-
-    [1.05 1.03]
-
-
-
-```python
-print("Hello World")
-```
-
-    Hello World
-
-
-
-```python
-
-```
-
-```
 
 <style>
 table, tr, td ,th{
@@ -94,7 +28,7 @@ table, tr, td ,th{
 <hr>
 <body class="sponsored">
 
-<h2 class="centered"> Research graciously funded by</h2>
+<h2 class="centered"> Research in collaboration with</h2>
 
 <table >
   <tr >
