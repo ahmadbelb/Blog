@@ -5,7 +5,7 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-image: "/images/coverpicture.jpeg"
+image: "https://ahmadbelb.github.io/belbeisiahmad.github.io/images/coverpicture.jpeg"
 ---
 
-<embed src="https://krishnakrao.github.io/images/Resume.pdf" type="application/pdf" />
+<embed src="https://ahmadbelb.github.io/belbeisiahmad.github.io/images/Resume.pdf" type="application/pdf" />
