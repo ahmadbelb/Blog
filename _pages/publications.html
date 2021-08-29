@@ -15,6 +15,7 @@ You can also find my publications on <u><a href="https://scholar.google.com/cita
 {% for post in site.publications reversed %}
   {% if post.path contains 'pubbs' %}
     {% include archive-single.html %}
+    <script src="{{ '/assets/js/copyCode.js' | relative_url }}"></script>
   {% endif %}  
 {% endfor %}
 <h2>TECHNICAL REPORTS: </h2>
