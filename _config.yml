@@ -86,8 +86,8 @@ author:
   location         : "Munich, Germany"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=-UCmLrUAAAAJ&hl=en"
-  email            : "ahmadbelb  at g mail dot com"
+  googlescholar    : #"https://scholar.google.com/citations?user=-UCmLrUAAAAJ&hl=en"
+  email            : "ahmadbelb@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
