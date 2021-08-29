@@ -62,7 +62,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  "/images/coverpicture.jpeg"
+og_image                 :  "https://ahmadbelb.github.io/belbeisiahmad.github.io/images/coverpicture.jpeg"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Ahmad M. Belbeisi"
   avatar           : "profile_blur.jpg"
-  bio              : "Develop Multi-Physics and Coupled Simulations algorithms. <br />Computational Science and Engineering student at Technical University of Munich"
+  bio              : "Develop Multi-Physics and Coupled Simulations algorithms. <br />Computational                     Science and Engineering student at Technical University of Munich"
   location         : "Munich, Germany"
   employer         :
   pubmed           : 
