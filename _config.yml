@@ -82,11 +82,7 @@ analytics:
 author:
   name             : "Ahmad M. Belbeisi"
   avatar           : "profile_blur.jpg"
-<<<<<<< HEAD
   bio              : "Develop Multi-Physics and Coupled Simulations algorithms. <br />Computational                     Science and Engineering student at Technical University of Munich"
-=======
-  bio              : "Developing Multi-Physics and Coupled Simulations algorithms. <br />Computational Science and Engineering student at Technical University of Munich"
->>>>>>> 996ca41dc01ed04ccdc6b833ba010256401c67e4
   location         : "Munich, Germany"
   employer         :
   pubmed           : 
@@ -280,7 +276,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Berlin # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
