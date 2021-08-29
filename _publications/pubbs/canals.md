@@ -20,7 +20,7 @@ _Canal segmentation results_
 
 
 <style>
-td, th {
+td, th,tr {
    border: none!important;
 }
 </style>
@@ -30,8 +30,8 @@ td, th {
 
 <h2 class="centered"> Research graciously funded by</h2>
 
-<table cellspacing="0" cellpadding="0">
-  <tr border="1">
+<table >
+  <tr >
     <td ><a class="greyed" href="https://www.eng.ed.ac.uk/" target="_blank"> <img src="https://ahmadbelb.github.io/Blog/images/ed.png"  alt="1" width = 500px ></a></td>
 
     <td><a class="greyed" href="https://www.Arup.com/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/Arup.png" alt="2" width = 360px ></a></td>
