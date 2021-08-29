@@ -9,17 +9,21 @@ author_profile: true
 <br>
 <br>
 You can also find my publications on <u><a href="https://scholar.google.com/citations?user=bRXn_ZAAAAAJ&hl=en">my Google Scholar profile</a>.</u>
-<h5>PEER-REVIEWED PUBLICATIONS:</h5> 
+<h5>PEER-REVIEWED PUBLICATIONS:</h2> 
 {% include base_path %}
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-<h5>TECHNICAL REPORTS: </h5>
+<h2>TECHNICAL REPORTS: </h2>
+{% include base_path %}
 
-<h5>PROJECT REPORTS: </h5>
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+<h2>PROJECT REPORTS: </h2>
 
-<h5> POSTER PRESENTATIONS:</h5>
+<h2> POSTER PRESENTATIONS:</h2>
 <hr>
 <body class="sponsored">
 
