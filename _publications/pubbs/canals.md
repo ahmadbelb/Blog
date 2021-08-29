@@ -16,6 +16,10 @@ q
 
 _Canal segmentation results_
 
+```python
+s = "Python syntax highlighting"
+print s
+```
 ---
 front matter things here
 ---
@@ -34,6 +38,9 @@ t.succ
 {%- endcapture -%}
 
 {% include code_snippet.md code=code language='ruby' %}
+
+
+<style>
 table, tr, td ,th{
    border: none!important;
 }
