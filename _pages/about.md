@@ -25,9 +25,9 @@ My skills include-
 
 I am open to work remotely from Stanford, CA. Interested or know anyone who might be interested in hiring me? [Please email me.](mailto:kkrao@stanford.edu) -->
 
-I am a master student  in Computational Science and Engineering at Technical University of Munich.
+I am a double master student at the Technical University of Munich.There I study Civil Engineering and Computational Science and Engineering
 
-I develop physics-assisted machine learning algorithms to measure forest health (how wet or dry the forests are) using remote sensing. I work in the <a href="https://koningslab.stanford.edu/" target="_blank">Remote Sensing Ecohydrology Group</a> with Prof. Alexandra Konings. I got my bachleors in Civil Engineering at the Indian Institute of Technology Madras and my masters in Environmental Fluid Mechanics and Hydrology at Stanford University. During my bachelors and masters, I worked on several  independent studies which convinced me about the endless possibilities of impact-based research. My quest to develop technologies to measure forest health and help quantify climate change impacts on ecosystems is derived from that conviction. 
+I develop physics-assisted machine learning algorithms to measure bridges health (how safe or damaged the bridges are) using remote sensing. I work in the <a href="https://www.bgu.tum.de/en/cbm/chair-of-non-destructive-testing-ndt/" target="_blank">Chair of Non-destructive Testing</a> with Dr Alexander Mendler. I got my bachelors in Civil Engineering at the University of Edinburgh. During my bachelors and masters, I worked on several independent studies which convinced me about the endless possibilities of impact-based research. My quest to develop technologies to understand climate dynamics and help quantify climate change impacts on ecosystems is derived from that conviction. 
 
 For more details about my education and professional experience, view my [CV](https://ahmadbelb.github.io/Blog/cv/). 
 <!-- <picture>
@@ -36,20 +36,27 @@ For more details about my education and professional experience, view my [CV](ht
 </picture>
 _My path viewed through a lens of sustainability._
  -->
-### Research
+ ### Computational Science and Engineering Research
+ 
+ My research interests include understanding climate dynamics towards characterizing wildfire risk and drought impacts on the overall climate. For this purpose, I started my Computational Science and Engineering degree - where the need for high performance computing is required. To know more about my research, check out my [publications](https://ahmadbelb.github.io/Blog/publications/) or [talks](https://ahmadbelb.github.io/Blog/talks/). 
+ 
+ 
+### Civil Engineering Research
 
-My research interests include understanding forest hydraulic health dynamics towards charecterizing wildfire risk and drought impacts on vegetation. To do so, I work across several scales - from plot-scale measurements to landscape-scale estimations.  To know more about my research, check out my [publications](https://ahmadbelb.github.io/Blog/publications/) or [talks](https://ahmadbelb.github.io/Blog/talks/). 
+My research interests include understanding structural health dynamics towards characterizing natural frequency and dynamic loads on bridges. To do so, I work across several scales - from Ansys simulations to data-driven damage features extraction. To know more about my research, check out my [publications](https://ahmadbelb.github.io/Blog/publications/) or [talks](https://ahmadbelb.github.io/Blog/talks/). 
 
 ### Skills
 
-Since my research involves developing data-driven approaches, where required, I apply machine learning and deep learning. While learning skills related to data science in my coursework, I worked on several projects to gain hands-on experience. The [projects tab](https://ahmadbelb.github.io/Blog/projects/) includes such side projects.
+Since my research involves developing data-driven approaches, I apply machine learning and high-performance computing where required. While learning skills related to parallel computing in my coursework, I worked on several projects to gain hands-on experience. The [projects tab](https://ahmadbelb.github.io/Blog/projects/) includes such side projects.
+
+
 
 ### Job
 
-For about 2 years between my bachelors and masters, I was a Wireline Field Engineer at Schlumberger in Northeast India. There, I designed, executed and delivered several projects for reservoir characterization (measuring quantity and quality of hydrocarbon payzones) and intervention (e.g., increase wellbore flow, plug old boreholes, etc.)
+For about 1 year now, I am a working student in Munich at TE connectivity. There, I designed, executed and delivered several projects for IoT integration (calibrating machines based on several parameters ) and features extraction (e.g., automating the machine start-up based on previous year data, etc.)
 
 ### Hobbies
 
-My hobbies include bicycle touring, and triathlons. I am passionate about them and devote my entire free time to them. You can read more about my hobbies on the [blog section](https://ahmadbelb.github.io/Blog/blog/). 
+My hobbies include hiking, and electric circuit design. I am passionate about them and devote my entire free time to them. You can read more about my hobbies on the [blog section](https://ahmadbelb.github.io/Blog/blog/). 
 
 {% include image.html url="https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"%}
