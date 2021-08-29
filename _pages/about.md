@@ -36,7 +36,10 @@ For more details about my education and professional experience, view my [CV](ht
 </picture>
 _My path viewed through a lens of sustainability._
  -->
- ### Computational Science and Engineering Research
+ 
+ 
+ 
+### Computational Science and Engineering Research
  
  My research interests include understanding climate dynamics towards characterizing wildfire risk and drought impacts on the overall climate. For this purpose, I started my Computational Science and Engineering degree - where the need for high performance computing is required. To know more about my research, check out my [publications](https://ahmadbelb.github.io/Blog/publications/) or [talks](https://ahmadbelb.github.io/Blog/talks/). 
  
