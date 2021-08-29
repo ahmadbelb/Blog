@@ -57,3 +57,14 @@ table, tr, td ,th{
 </table>
 </body>
 
+<script>
+var copybutton = document.getElementById('copybutton{{ nanosecond }}');
+var clipboard{{ nanosecond }} = new Clipboard(copybutton);
+
+clipboard{{ nanosecond }}.on('success', function(e) {
+    console.log(e);
+});
+clipboard{{ nanosecond }}.on('error', function(e) {
+    console.log(e);
+});
+</script>
