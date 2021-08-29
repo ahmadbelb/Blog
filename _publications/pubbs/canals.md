@@ -16,28 +16,12 @@ q
 
 _Canal segmentation results_
 
-```python
-s = "Python syntax highlighting"
-print s
+
 ```
----
-front matter things here
----
-{%- capture code -%}
-/* Some js code */
-const redis = require('redis');
-const host = <HOSTNAME>;
-{%- endcapture -%}
-
-{% include code_snippet.md code=code language='javascript' %}
-
-{%- capture code -%}
-# Some ruby code
-t = Time.now
-t.succ  
-{%- endcapture -%}
-
-{% include code_snippet.md code=code language='ruby' %}
+conda create -n slideshow -c conda-forge python=3.9 rise
+conda activate slideshow
+jupyter notebook
+```
 
 
 <style>
