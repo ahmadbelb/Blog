@@ -16,9 +16,10 @@ q
 
 _Canal segmentation results_
 
-``print("Hello World")
-``
-
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 
 
