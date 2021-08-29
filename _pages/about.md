@@ -11,7 +11,7 @@ image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
 
 <picture>
     <source media="(min-width: 1000px)" srcset="https://ahmadbelb.github.io/Blog/images/myplan.png">
-    <img src="https://ahmadbelb.github.io/Blog/images/timespent.jpg" alt="Time line of my previous experience">
+    <img src="https://ahmadbelb.github.io/Blog/images/myplan.png" alt="Time line of my previous experience">
 </picture>
 _My path since 2014._
 
