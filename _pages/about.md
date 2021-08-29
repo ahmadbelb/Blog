@@ -13,7 +13,7 @@ image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
     <source media="(min-width: 1000px)" srcset="https://ahmadbelb.github.io/Blog/images/myplan.png">
     <img src="https://ahmadbelb.github.io/Blog/images/timespent.jpg" alt="Time line of my previous experience">
 </picture>
-_My path since 2010._
+_My path since 2014._
 
 <!-- I am looking for an internship for the summer of 2021. I am eager to apply my skills in developing data-driven geospatial models to solve your problems! 
 
