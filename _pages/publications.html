@@ -16,12 +16,6 @@ You can also find my publications on <u><a href="https://scholar.google.com/cita
 
 {% for post in site.publications reversed %}
   {% if post.path contains 'pubbs' %}
-  {% if post.content contains "code" %}
-    <script>
-      <!-- copyCode.js code -->
-    </script>
-    {% include archive-single.html %}
-    {% endif %}
     {% include archive-single.html %}
     
   {% endif %}  
