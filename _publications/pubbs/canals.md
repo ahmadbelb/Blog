@@ -16,7 +16,7 @@ q
 
 _Canal segmentation results_
 
-{% capture code %}{% raw %}conditions
+{% capture code %}{% raw %}ahmad
 {
     Is Dummy Bot(Event Player) == False;
 }{% endraw %}{% endcapture %}  
