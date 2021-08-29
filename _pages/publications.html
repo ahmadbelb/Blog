@@ -64,6 +64,27 @@ You can also find my publications on <u><a href="https://scholar.google.com/cita
 
 </div>
 </body> -->
-<script src="/assets/js/copyCode.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+<script>
+const copyCode = (clickEvent) => {
+  const copyCodeButton = clickEvent.target;
+  const tempTextArea = document.createElement('textarea');
+  tempTextArea.textContent = copyCodeButton.getAttribute('data-code');
+  document.body.appendChild(tempTextArea);
+
+  const selection = document.getSelection();
+  selection.removeAllRanges();
+  tempTextArea.select();
+  document.execCommand('copy');
+  selection.removeAllRanges();
+  document.body.removeChild(tempTextArea);
+
+  copyCodeButton.classList.add('copied');
+  setTimeout(() => {
+    copyCodeButton.classList.remove('copied');
+}, 2000);
+};
+
+document.querySelectorAll('.copy-code-button').forEach((copyCodeButton) => {
+  copyCodeButton.addEventListener('click', copyCode);
+});
+</script>
