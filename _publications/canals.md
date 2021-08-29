@@ -1,5 +1,5 @@
 ---
-title: "Drainage canals in Southeast Asian peatlands increase carbon emissions"
+title: "Derainage canals in Southeast Asian peatlands increase carbon emissions"
 collection: publications
 permalink: /publication/canals
 excerpt: 'This paper presents a novel convolutional neural network to detect canals and study the effect of canals on land subsidence.'
