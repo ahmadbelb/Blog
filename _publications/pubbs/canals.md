@@ -21,10 +21,7 @@ _Canal segmentation results_
 ```someLanguage
 code goes in here!
 ```
-<script src="/assets/js/copyCode.js"></script>
-```someLanguage
-code goes in here!
-```
+
 <style>
 table, tr, td ,th{
    border: none!important;
