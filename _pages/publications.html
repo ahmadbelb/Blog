@@ -21,13 +21,26 @@ You can also find my publications on <u><a href="https://scholar.google.com/cita
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% if post.path contains 'poster' %}
+  {% if post.path contains 'techreport' %}
     {% include archive-single.html %}
   {% endif %}  
 {% endfor %}
 <h2>PROJECT REPORTS: </h2>
+{% include base_path %}
 
+{% for post in site.publications reversed %}
+  {% if post.path contains 'projectreport' %}
+    {% include archive-single.html %}
+  {% endif %}  
+{% endfor %}
 <h2> POSTER PRESENTATIONS:</h2>
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+  {% if post.path contains 'poster' %}
+    {% include archive-single.html %}
+  {% endif %}  
+{% endfor %}
 <hr>
 <body class="sponsored">
 
