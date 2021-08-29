@@ -16,12 +16,10 @@ q
 
 _Canal segmentation results_
 
-{% capture code %}{% raw %}conditionsahmad
-{
-    Is Dummy Bot(Event Player) == False;
-}{% endraw %}{% endcapture %}  
-{% include code.html code=code %}
-
+{% include codeHeader.html %}
+```someLanguage
+code goes in here!
+```
 
 <style>
 table, tr, td ,th{
