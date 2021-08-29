@@ -21,6 +21,14 @@ conditions
     Is Dummy Bot(Event Player) == False;
 }
 ```
+
+
+<div class="highlight-default notranslate"><div class="highlight"><pre id="codecell1"><span></span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="n">github_page_example</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">slides</span> <span class="o">--</span><span class="n">stdout</span> <span class="o">&gt;</span> <span class="n">index</span><span class="o">.</span><span class="n">html</span>
+</pre><a class="copybtn o-tooltip--left" style="background-color: rgb(250, 250, 250)" data-tooltip="Copy" data-clipboard-target="#codecell1">
+      <img src="https://ahmadbelb.github.io/Blog/images/copy-button.svg" alt="Copy to clipboard">
+    </a></div>
+</div>
+
 <style>
 table, tr, td ,th{
    border: none!important;
