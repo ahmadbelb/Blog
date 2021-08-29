@@ -17,10 +17,8 @@ q
 _Canal segmentation results_
 # HAVVX Orb Numbers
 {% capture code %}{% raw %}
-
-
-AHMAD
-}{% endraw %}{% endcapture %}  
+Belbeisi
+{% endraw %}{% endcapture %}  
 {% include code.html code=code %}
 
 
