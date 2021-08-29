@@ -20,7 +20,10 @@ _Canal segmentation results_
 s = "Python syntax highlighting"
 print s
 ```
-
+<div class="highlight"><pre id="codecell7"><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">xeus</span><span class="o">-</span><span class="n">python</span> <span class="o">-</span><span class="n">c</span> <span class="n">defaults</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+</pre><a class="copybtn o-tooltip--left" style="background-color: rgb(250, 250, 250)" data-tooltip="Copy" data-clipboard-target="#codecell7">
+      <img src="https://ahmadbelb.github.io/Blog/images/copy-button.svg" alt="Copy to clipboard">
+    </a></div>
 
 
 <style>
