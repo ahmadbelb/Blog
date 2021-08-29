@@ -20,17 +20,18 @@ _Canal segmentation results_
 
 
 
+
 <hr>
 <body class="sponsored">
 
 <h2 class="centered"> Research graciously funded by</h2>
 
-<table>
+<table border="0">
   <tr>
-    <td> <img src="https://ahmadbelb.github.io/Blog/images/ed.png"  alt="1" width = 500px ></td>
+    <td><a class="greyed" href="https://www.eng.ed.ac.uk/" target="_blank"> <img src="https://ahmadbelb.github.io/Blog/images/ed.png"  alt="1" width = 500px ></a></td>
 
-    <td><img src="https://ahmadbelb.github.io/Blog/images/Arup.png" alt="2" width = 360px ></td>
- <td><img src="https://ahmadbelb.github.io/Blog/images/scot.png" alt="2" width = 400px ></td>
+    <td><a class="greyed" href="https://www.Arup.com/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/Arup.png" alt="2" width = 360px ></a></td>
+ <td><a class="greyed" href="https://www.transport.gov.scot/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/scot.png" alt="2" width = 400px ></a></td>
    </tr> 
    <tr>
     
@@ -39,3 +40,4 @@ _Canal segmentation results_
   </tr>
 </table>
 </body>
+
