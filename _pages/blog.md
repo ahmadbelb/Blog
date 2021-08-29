@@ -3,7 +3,7 @@ layout: archive
 title: "Latest blog posts"
 entries_layout: grid
 permalink: /blog/
-image: "https://ahmadbelb.github.io/belbeisiahmad.github.io/images/coverpicture.jpeg"
+image: "coverpicture.jpeg"
 author_profile: true
 ---
 
