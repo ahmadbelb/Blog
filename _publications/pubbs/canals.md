@@ -15,148 +15,18 @@ q
 
 
 _Canal segmentation results_
+```javascript
+/* Global scope: this code is executed once */
+const redis = require('redis');
+
+const host = <HOSTNAME>;
+const port = <PORT>;
+const password = <PASSWORD>;
+
+...
 ```
-conditions
-{
-    Is Dummy Bot(Event Player) == False;
-}
-```
+{: #code-example-1}
 
-{% capture code %}{% raw %}variables
-{
-    player:
-        100: directionString
-        101: wasdString
-        102: jumpIndicator
-        103: showWASD
-        104: wasdCollector
-}
-
-rule("HUD -------------------------------------------------- WASD / Space Indicators for Spec")
-{
-    event
-    {
-        Ongoing - Each Player;
-        All;
-        All;
-    }
-
-    conditions
-    {
-        Is Communicating Any Spray(Event Player) == True;
-        disabled Is Button Held(Event Player, Button(Ultimate)) == True;
-    }
-
-    actions
-    {
-        If(Event Player.showWASD == False);
-            Event Player.jumpIndicator = Custom String("            ");
-            Event Player.wasdCollector = Array();
-            Create HUD Text(Event Player, Event Player.jumpIndicator, Null, Null, Top, -46, Color(White), Color(White), Color(White),
-                Visible To and String, Default Visibility);
-            Modify Player Variable(Event Player, wasdCollector, Append To Array, Last Text ID);
-            Create HUD Text(Event Player, Event Player.wasdString, Null, Null, Top, -46, Color(White), Color(White), Color(White),
-                Visible To and String, Default Visibility);
-            Modify Player Variable(Event Player, wasdCollector, Append To Array, Last Text ID);
-            disabled Create HUD Text(Event Player, Event Player.directionString, Null, Null, Top, -46, Color(White), Color(White), Color(White),
-                Visible To and String, Default Visibility);
-            disabled Modify Player Variable(Event Player, wasdCollector, Append To Array, Last Text ID);
-            Event Player.showWASD = True;
-        Else;
-            Destroy HUD Text(Event Player.wasdCollector[0]);
-            Destroy HUD Text(Event Player.wasdCollector[1]);
-            Destroy HUD Text(Event Player.wasdCollector[2]);
-            Event Player.showWASD = False;
-    }
-}
-
-rule("Check for direction ------------------------------ WASD / Space Indicators for Spec")
-{
-    event
-    {
-        Ongoing - Each Player;
-        All;
-        All;
-    }
-
-    conditions
-    {
-        Event Player.showWASD == True;
-    }
-
-    actions
-    {
-        "Forward"
-        If(Z Component Of(Throttle Of(Event Player)) == 1 && X Component Of(Throttle Of(Event Player)) == 0);
-            Event Player.directionString = Custom String("     ·     \n           \n           ");
-            Event Player.wasdString = Custom String(" _↑_ _ ");
-        "Backwards"
-        Else If(Z Component Of(Throttle Of(Event Player)) == -1 && X Component Of(Throttle Of(Event Player)) == 0);
-            Event Player.directionString = Custom String("           \n           \n     ·     ");
-            Event Player.wasdString = Custom String(" _ _↓_ ");
-        "Left"
-        Else If(Z Component Of(Throttle Of(Event Player)) == 0 && X Component Of(Throttle Of(Event Player)) == 1);
-            Event Player.directionString = Custom String("           \n  ·        \n           ");
-            Event Player.wasdString = Custom String("←_ _ _ ");
-        "Right"
-        Else If(Z Component Of(Throttle Of(Event Player)) == 0 && X Component Of(Throttle Of(Event Player)) == -1);
-            Event Player.directionString = Custom String("           \n        ·  \n           ");
-            Event Player.wasdString = Custom String(" _ _ _→");
-        "Forward Left"
-        Else If(Z Component Of(Throttle Of(Event Player)) == 1 && X Component Of(Throttle Of(Event Player)) == 1);
-            Event Player.directionString = Custom String("  ·        \n           \n           ");
-            Event Player.wasdString = Custom String("←↑_ _ ");
-        "Forward Right"
-        Else If(Z Component Of(Throttle Of(Event Player)) == 1 && X Component Of(Throttle Of(Event Player)) == -1);
-            Event Player.directionString = Custom String("        ·  \n           \n           ");
-            Event Player.wasdString = Custom String(" _↑_→");
-        "Backwards Left"
-        Else If(Z Component Of(Throttle Of(Event Player)) == -1 && X Component Of(Throttle Of(Event Player)) == 1);
-            Event Player.directionString = Custom String("           \n           \n  ·        ");
-            Event Player.wasdString = Custom String("←_↓_ ");
-        "Backwards Right"
-        Else If(Z Component Of(Throttle Of(Event Player)) == -1 && X Component Of(Throttle Of(Event Player)) == -1);
-            Event Player.directionString = Custom String("           \n           \n        ·  ");
-            Event Player.wasdString = Custom String(" _ _↓→");
-        "No input"
-        Else If(Z Component Of(Throttle Of(Event Player)) == 0 && X Component Of(Throttle Of(Event Player)) == 0);
-            Event Player.directionString = Custom String("           \n     ·     \n           ");
-            Event Player.wasdString = Custom String(" _ _ _ _ ");
-        End;
-        Wait(Update Every Frame(Throttle Of(Event Player)), Ignore Condition);
-        Loop If Condition Is True;
-    }
-}
-
-rule("Check for space ---------------------------------- WASD / Space Indicators for Spec")
-{
-    event
-    {
-        Ongoing - Each Player;
-        All;
-        All;
-    }
-
-    conditions
-    {
-        Is Button Held(Event Player, Button(Jump)) == True;
-        Event Player.showWASD == True;
-    }
-
-    actions
-    {
-        Event Player.jumpIndicator = Custom String("SPACE");
-        Wait Until(!Is Button Held(Event Player, Button(Jump)), 99999);
-        Event Player.jumpIndicator = Custom String("             ");
-    }
-}{% endraw %}{% endcapture %}  
-{% include code.html code=code %}
-
-<div class="highlight-default notranslate"><div class="highlight"><pre id="codecell1"><span></span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="n">github_page_example</span><span class="o">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">slides</span> <span class="o">--</span><span class="n">stdout</span> <span class="o">&gt;</span> <span class="n">index</span><span class="o">.</span><span class="n">html</span>
-</pre><a class="copybtn o-tooltip--left" style="background-color: rgb(250, 250, 250)" data-tooltip="Copy" data-clipboard-target="#codecell1">
-      <img src="https://ahmadbelb.github.io/Blog/images/copy-button.svg" alt="Copy to clipboard">
-    </a></div>
-</div>
 
 <style>
 table, tr, td ,th{
