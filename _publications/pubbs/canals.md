@@ -19,7 +19,7 @@ table, tr, td ,th{
 <hr>
 <body class="sponsored">
 
-<h2 class="centered">  in collaboration with</h2>
+<h2 class="centered">  In collaboration with</h2>
 
 <table >
   <tr >
