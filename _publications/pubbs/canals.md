@@ -19,19 +19,15 @@ table, tr, td ,th{
 <hr>
 <body class="sponsored">
 
-<h2 class="centered">  In collaboration with</h2>
+<h2 class="centered">  in collaboration with</h2>
 
 <table >
   <tr >
   <td ><a class="greyed" href="https://www.eng.ed.ac.uk/" target="_blank"> <img src="https://ahmadbelb.github.io/Blog/images/ed.png"  alt="1" width = 500px ></a></td>
-  
-  
-<td ><a class="greyed" href="https://www.burohappold.com/" target="_blank"> <img src="https://ahmadbelb.github.io/Blog/images/Buro-Happold.png"  alt="2" width = 550px ></a></td>
+    <td ><a class="greyed" href="https://www.burohappold.com/" target="_blank"> <img src="https://ahmadbelb.github.io/Blog/images/Buro-Happold.png"  alt="1" width = 500px ></a></td>
 
-<td><a class="greyed" href="https://www.cullinanstudio.com/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/cstudio.png" alt="3" width = 260px ></a></td>
-    
-    
- <td><a class="greyed" href="https://www.istructe.org/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/ise.png" alt="4" width = 300px ></a></td>
+    <td><a class="greyed" href="https://www.cullinanstudio.com/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/cstudio.png" alt="2" width = 360px ></a></td>
+ <td><a class="greyed" href="https://www.istructe.org/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/ise.png" alt="2" width = 400px ></a></td>
    </tr> 
    <tr>
     
