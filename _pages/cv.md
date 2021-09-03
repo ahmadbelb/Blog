@@ -9,6 +9,19 @@ image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
 ---
 <!-- 
 <embed src="https://ahmadbelb.github.io/Blog/images/Resume.pdf" type="application/pdf" /> -->
+<style>
+body {
+    margin: 0;            /* Reset default margin */
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+</style>
 
 
 
