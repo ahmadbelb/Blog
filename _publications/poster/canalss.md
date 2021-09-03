@@ -1,5 +1,5 @@
 ---
-title: "Poster BENG "
+title: "BENG"
 collection: publications
 permalink: /publication/canals
 excerpt: 'This paper presents a '
