@@ -23,10 +23,10 @@ table, tr, td ,th{
 
 <table >
   <tr >
-    <td ><a class="greyed" href="https://www.eng.ed.ac.uk/" target="_blank"> <img src="https://ahmadbelb.github.io/Blog/images/ed.png"  alt="1" width = 500px ></a></td>
+    <td ><a class="greyed" href="https://www.eng.ed.ac.uk/" target="_blank"> <img src="/images/ed.png"  alt="1" width = 500px ></a></td>
 
-    <td><a class="greyed" href="https://www.Arup.com/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/Arup.png" alt="2" width = 360px ></a></td>
- <td><a class="greyed" href="https://www.transport.gov.scot/" target="_blank"><img src="https://ahmadbelb.github.io/Blog/images/scot.png" alt="2" width = 450px ></a></td>
+    <td><a class="greyed" href="https://www.Arup.com/" target="_blank"><img src="/images/Arup.png" alt="2" width = 360px ></a></td>
+ <td><a class="greyed" href="https://www.transport.gov.scot/" target="_blank"><img src="/images/scot.png" alt="2" width = 450px ></a></td>
    </tr> 
    <tr>
     
