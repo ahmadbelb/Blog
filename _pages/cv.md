@@ -11,4 +11,4 @@ image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
 <embed src="https://ahmadbelb.github.io/Blog/images/Resume.pdf" type="application/pdf" /> -->
 
 
-<iframe src="https://docs.google.com/viewer?url=https://ahmadbelb.github.io/Blog/images/Resume.pdf&embedded=true" height="200%" width="100%" scrolling="auto" frameborder="0"></iframe>
+<iframe src="https://docs.google.com/viewer?url=https://ahmadbelb.github.io/Blog/images/Resume.pdf&embedded=true"  width="100%" scrolling="auto" frameborder="0"></iframe>
