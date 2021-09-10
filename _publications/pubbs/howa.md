@@ -44,7 +44,7 @@ Write about your approach to QA and why it's critical to success.
 - Look at the list of items going out for release the next day.
 - Go down the list one-by-one and thoroughly test changes.
 ## Another paragraph <a name="paragraph2"></a>
-
+- Look at the list of items going out for release the next day
 
 
 
