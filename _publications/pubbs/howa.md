@@ -3,7 +3,6 @@ title: "APDL modal  "
 excerpt: "Map is a <br/><img src='https://ahmadbelb.github.io/Blog/images/modal.gif'>"
 collection: publications
 permalink: /publication/howa
-excerpt: 'This paper presents a '
 date: 2021-03-23
 venue: 'AGU Advances'
 paperurl: ''
