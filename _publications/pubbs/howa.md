@@ -1,6 +1,6 @@
 ---
 title: "APDL modal TEST "
-excerpt: "Map is a <br/><img src='https://ahmadbelb.github.io/Blog/images/modal1.gif' Width= 876px Height= 480px;  loop=infinite>"
+excerpt: "Map is a <br/><img src='https://ahmadbelb.github.io/Blog/images/modal1.gif' Width= 876px Height= 480px  loop=infinite>"
 collection: publications
 permalink: /publication/howa
 date: 2021-03-23
