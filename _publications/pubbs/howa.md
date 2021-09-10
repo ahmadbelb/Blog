@@ -1,5 +1,5 @@
 ---
-title: "APDL "
+title: "APDL modal  "
 excerpt: "Map is a <br/><img src='https://ahmadbelb.github.io/Blog/images/modal.gif'>"
 collection: publications
 permalink: /publication/howa
