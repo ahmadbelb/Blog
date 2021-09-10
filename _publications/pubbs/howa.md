@@ -80,13 +80,8 @@ R, 1001, mpoint, mpoint, mpoint
 ```
 ### Results 
 
-
-
-
 ```fortran
-
-
- /INPUT FILE= C:\Users\PAPERS~1\AppData\Local\Temp\tmp_iematbmcia.inp  LINE=       0
+/HELO     0
  --- Data in consistent MKS units. See Solving Units in the help system for more
 
  MKS UNITS SPECIFIED FOR INTERNAL    
@@ -1536,5 +1531,6 @@ R, 1001, mpoint, mpoint, mpoint
 
 
 
+```
 
-    ```
+
