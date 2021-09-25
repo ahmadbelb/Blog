@@ -1,14 +1,14 @@
 ---
 permalink: /
 title: "About me"
-excerpt: "About me"
+excerpt: "Ahmad M. Belbeisi - About me "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 image: "https://ahmadbelb.github.io/Blog/images/coverpicture.jpeg"
 ---
-
+<link rel="apple-touch-icon" sizes="180x180" href="https://ahmadbelb.github.io/Blog/images/favicon/apple-touch-icon.png">
 <picture>
     <source media="(min-width: 1000px)" srcset="https://ahmadbelb.github.io/Blog/images/myplan.png">
     <img src="https://ahmadbelb.github.io/Blog/images/myplan.png" alt="Time line of my previous experience">
