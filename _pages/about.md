@@ -27,7 +27,7 @@ I am open to work remotely from Stanford, CA. Interested or know anyone who migh
 
 I am a double master student at the Technical University of Munich.There I study Civil Engineering along side Computational Science and Engineering
 
-I develop physics-assisted machine learning algorithms to quantify bridges health (how safe or damaged the bridges are) using remote sensing. I work in the <a href="https://www.bgu.tum.de/en/cbm/chair-of-non-destructive-testing-ndt/" target="_blank">Chair of Non-destructive Testing</a> with Dr Alexander Mendler. I got my bachelors in Civil Engineering at the University of Edinburgh. During my bachelors and masters, I worked on several independent studies which convinced me about the endless possibilities of impact-based research. My quest to develop technologies to understand climate dynamics and help quantify climate change impacts on ecosystems is derived from that conviction. 
+I got my bachelors in Civil Engineering at the University of Edinburgh. During my bachelors and masters, I worked on several independent studies which convinced me about the endless possibilities of impact-based research. My quest to develop technologies to understand climate dynamics and help quantify climate change impacts on ecosystems is derived from that conviction. 
 
 For more details about my education and professional experience, view my [CV](https://ahmadbelb.github.io/Blog/cv/). 
 <!-- <picture>
