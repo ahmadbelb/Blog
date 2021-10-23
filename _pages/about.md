@@ -25,7 +25,7 @@ My skills include-
 
 I am open to work remotely from Stanford, CA. Interested or know anyone who might be interested in hiring me? [Please email me.](mailto:kkrao@stanford.edu) -->
 
-I am a double master student at the Technical University of Munich.There I study Civil Engineering and Computational Science and Engineering
+I am a double master student at the Technical University of Munich.There I study Civil Engineering along side Computational Science and Engineering
 
 I develop physics-assisted machine learning algorithms to quantify bridges health (how safe or damaged the bridges are) using remote sensing. I work in the <a href="https://www.bgu.tum.de/en/cbm/chair-of-non-destructive-testing-ndt/" target="_blank">Chair of Non-destructive Testing</a> with Dr Alexander Mendler. I got my bachelors in Civil Engineering at the University of Edinburgh. During my bachelors and masters, I worked on several independent studies which convinced me about the endless possibilities of impact-based research. My quest to develop technologies to understand climate dynamics and help quantify climate change impacts on ecosystems is derived from that conviction. 
 
@@ -43,10 +43,7 @@ _My path viewed through a lens of sustainability._
  
  My research interests include understanding climate dynamics towards characterizing wildfire risk and drought impacts on the overall climate. For this purpose, I started my Computational Science and Engineering degree - where the need for high performance computing is required. To know more about my research, check out my [publications](https://ahmadbelb.github.io/Blog/publications/) or [talks](https://ahmadbelb.github.io/Blog/talks/). 
  
- 
-### Civil Engineering Research
 
-My research interests include understanding structural health dynamics towards characterizing natural frequency and dynamic loads on bridges. To do so, I work across several scales - from Ansys simulations to data-driven damage features extraction. To know more about my research, check out my [publications](https://ahmadbelb.github.io/Blog/publications/) or [talks](https://ahmadbelb.github.io/Blog/talks/). 
 
 ### Skills
 
